@@ -40,4 +40,26 @@ console.log(typeof myFunction);
 console.log(typeof myObj);
 console.log(typeof anotherId);
 
+//+++++++++++++++++++++++++++++++++++++++++++++++++
+console.log();
+// Stack(primitive) , Heap (non-primitive)
+
+let myYoutubename = "mylifestyledotcom"
+
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+//console.log();
+let userOne ={
+    email : "user@google.com",
+    upi : "user@ybl"
+}
+let userTwo = userOne
+userTwo.email = "saloni@google.com"
+console.log(userOne.email);
+console.log(userTwo.email);
+
 
