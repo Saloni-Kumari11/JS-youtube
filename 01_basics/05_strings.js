@@ -24,3 +24,5 @@ console.log(newStringOne.trim());
 const url = "https://saloni.com/saloni%20kumari"
 console.log(url.replace('%20','-'));
 console.log(url.includes('sal'));
+console.log(gameName.split('-'));
+
